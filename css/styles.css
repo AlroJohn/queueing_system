@@ -1,0 +1,167 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  overflow-y:hidden;
+  overflow-x: hidden;
+}
+/* Apply background colors to the color-box elements */
+.column {
+flex-direction: column; /* Set the flex direction to column */
+gap: 0; /* Remove any gap between flex items */
+height: 300px; /* Adjust the height as needed */
+}
+#box1 {
+background-color: #0096FF;
+}
+
+#box2 {
+background-color: rgba(245, 245, 245, 0.958);
+}
+
+#box3 {
+background-color: rgb(171, 171, 171);
+}
+
+/* Style the column container */
+.column {
+display: flex;
+flex-direction: row;
+height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style the color-box elements */
+.color-box {
+flex: 3;
+}
+
+
+
+
+/* button style/css */
+
+#Assessment {
+  background-color: #fdfdfd; /* Blue background color */
+  color: #000000; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  display: flex;
+  margin: 90% 15%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: bold;
+  word-spacing: 3px;
+
+}
+#Assessment:hover{
+  background-color: grey; /* Darker blue on hover */
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.771);
+  color: white;
+}
+
+
+#Cashier{
+  background-color: rgb(171, 171, 171); /* Blue background color */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 90% 15%;
+  border-radius: 15px;
+  font-weight: bold;
+  word-spacing: 3px;
+}
+#Cashier:hover {
+  background-color: #3e3e3e; /* Darker blue on hover */
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.771);
+  color: white;
+}
+#Registrar{
+  background-color: #007bff; /* Blue background color */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 90% 15%;
+  border-radius: 15px;
+  font-weight: bold;
+  word-spacing: 3px;
+}
+#Registrar:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  box-shadow: 12px 12px 25px rgba(0, 0, 0, 0.771);
+  color: white;
+}
+
+
+/* NEW CSS */
+
+/* LOGO DESIGN */
+/* LOGO DESIGN */
+.background {
+position: absolute;
+top: 0;
+height: 230px;
+width: 100%;
+background-color: rgb(245, 245, 245);
+z-index: 1; /* Set the z-index of the background */
+
+
+}
+
+.logo_img img {
+position: absolute; 
+left: 11%;
+top: 10%;
+height: 180px;
+width: 180px;
+z-index: 2222; /* Set the z-index of the image to be above the background */
+}
+.logo_img{
+position: absolute;
+top: 0;
+height: 200px;
+width: 100%;
+z-index: 2222;
+}
+.logo_img .dwcl-tag{
+position:absolute;
+top: 40%;
+left: 29%;
+font-size: 46px;
+
+color: black; /* Set the text color */
+text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.836); /* Add shadow here */
+
+}
+.top_logo .qeue{
+position:absolute;
+top: 20%;
+left: 42%;
+font-size: 26px;
+z-index: 2222;
+
+color: black; /* Set the text color */
+text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.836); /* Add shadow here */
+}

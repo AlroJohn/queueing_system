@@ -1,0 +1,22 @@
+/* Reset some default browser styles */
+body, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the columns */
+.column {
+    width: 33.33%; /* Each column takes up one-third of the available width */
+    float: left; /* Float the columns to make them side by side */
+    box-sizing: border-box; /* Include padding and border in the width */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Add a border for separation */
+}
+
+/* Style the headings */
+h2 {
+    text-align: center; /* Center-align the headings */
+    background-color: #f0f0f0; /* Add a background color for the headings */
+    padding: 10px; /* Add some padding for the headings */
+    margin: 0;
+}
