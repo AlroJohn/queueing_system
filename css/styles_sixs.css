@@ -1,0 +1,261 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 930px;
+  background: linear-gradient(to bottom, rgba(244, 244, 241, 0.5) 0%, rgba(90, 105, 244, 0.768) 100%), url("../images/bd_logo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* Apply background colors to the color-box elements */
+.column {
+flex-direction: column; /* Set the flex direction to column */
+gap: 0; /* Remove any gap between flex items */
+height: 300px; /* Adjust the height as needed */
+
+}
+#box1 {
+
+margin-top: 250px;
+}
+
+/* #box2 {
+background-color: rgba(245, 245, 245, 0.958);
+} */
+
+#box3 {
+
+margin-top: 250px;
+}
+
+/* Style the column container */
+.column {
+display: flex;
+flex-direction: row;
+height: 100vh; /* Adjust the height as needed */
+}
+
+/* Style the color-box elements */
+.color-box {
+flex: 3;
+}
+
+/* button style/css */
+
+#Assessment {
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  display: flex;
+  margin: 40px 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Assessment:hover{
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
+
+#Cashier{
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 290px 80px;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Cashier:hover {
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
+#Registrars{
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 80px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 40px 80px;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Registrars:hover {
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
+
+
+
+/* NEW CSS */
+
+/* LOGO DESIGN */
+/* LOGO DESIGN */
+.background {
+position: absolute;
+top: 0;
+height: 230px;
+width: 100%;
+z-index: 1; /* Set the z-index of the background */
+}
+
+.logo_img img {
+position: absolute; 
+left: 11%;
+top: 10%;
+height: 180px;
+width: 180px;
+z-index: 2222; /* Set the z-index of the image to be above the background */
+}
+.logo_img{
+position: absolute;
+top: 0;
+left: 10%;
+height: 200px;
+width: 100%;
+z-index: 2222;
+font-weight:500px;
+}
+.logo_img .dwcl-tag{
+position:absolute;
+top: 40%;
+left: 25%;
+font-size: 46px;
+color: black; /* Set the text color */
+}
+.top_logo .qeue{
+position:absolute;
+top: 20%;
+left: 45%;
+font-size: 26px;
+font-weight: 600px;
+z-index: 2222;
+color: black; /* Set the text color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Registrar1{
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 15px 80px;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Registrar1:hover {
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
+#Registrar2{
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 15px 80px;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Registrar2:hover {
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
+#Registrar3{
+  background-color: #007bff; /* Blue background color */
+  color: black;
+  padding: 10px 20px; /* Padding for the button */
+  border: none; /* No border */
+  cursor: pointer; /* Cursor style on hover */
+  transition: all ease-in-out .5s;
+  width: 350px;
+  height: 70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin: 15px 80px;
+  border-radius: 15px;
+  word-spacing: 3px;
+  outline: #4c4c4c 5px solid;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Registrar3:hover {
+  box-shadow: 12px 12px 25px rgba(34, 34, 34, 0.771);
+  color: white;
+}
