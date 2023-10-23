@@ -190,3 +190,22 @@ body {
 .social-login__icon:hover {
 	transform: scale(1.5);	
 }
+
+.go_to_ui{
+	margin-top: 130px;
+	float: right;
+	margin-right: 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+}
+.go_to_ui a{
+	color: #00ffbf;
+	text-decoration: none;
+	transition: all ease-in-out .5s;
+}
+.go_to_ui a:hover{
+	color: #ff0000;
+	text-decoration: none;
+}

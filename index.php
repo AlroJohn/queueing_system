@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
 	<title>DWCL - Queueing System</title>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/logins.css">
 </head>
 <body>  
     <?php if (isset($error_message)) { ?>
@@ -30,7 +30,11 @@
 						<i class="button__icon fas fa-chevron-right"></i>
 					</button>				
 				</form>
+				<div class="go_to_ui">
+					<p>redirect to <a href="department/UI.php" target="_blank">Current Number</a> view</p>
+				</div>
 			</div>
+			
 			<div class="screen__background">
 				<span class="screen__background__shape screen__background__shape4"></span>
 				<span class="screen__background__shape screen__background__shape3"></span>		
