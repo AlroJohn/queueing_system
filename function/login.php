@@ -30,6 +30,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     echo '<script>alert("Welcome to Divine World College of Legazpi Queueing System!"); window.location.href = "../department/cashier.php";</script>';
                 } elseif ($user === 'registrar') {
                     echo '<script>alert("Welcome to Divine World College of Legazpi Queueing System!"); window.location.href = "../department/registrar.php";</script>';
+                }elseif ($user === 'admin') {
+                    echo '<script>alert("Welcome to Divine World College of Legazpi Queueing System!"); window.location.href = "../mvc/index.php";</script>';
                 }
                 exit();
             } else {
